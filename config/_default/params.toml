@@ -1,8 +1,8 @@
-description = 'A modular Hugo theme to build your next documentation site'
+description = 'Un espacio para la cultura digital colaborativa en el corazón de la Complutense.'
 
 [author]
-name = 'Your Name'
-URL = 'https://your-site.com/'
+name = 'hacklab-bbaa'
+URL = 'https://hacklab-bbaa.com/'
 
 currentYear = 2023
 # projectStartYear = 2020
@@ -18,6 +18,11 @@ buyMeACoffeeURL = 'https://www.buymeacoffee.com/'
 
 [algolia]
 [algolia.en]
+container = '#site-header-search'
+appId = ''
+indexName = ''
+apiKey = ''
+[algolia.es]
 container = '#site-header-search'
 appId = ''
 indexName = ''
