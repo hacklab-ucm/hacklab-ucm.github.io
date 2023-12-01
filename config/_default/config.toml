@@ -1,5 +1,5 @@
-title = 'Docura'
-baseURL = 'https://docura.github.io/'
+title = 'HackLAB BBAA'
+baseURL = 'https://jarshvor.github.io/hacklab-bbaa'
 
 defaultContentLanguage = 'en'
 languageCode = 'en-us'
