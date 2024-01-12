@@ -1,0 +1,13 @@
+<div class="people-wall">
+  {{ range .Pages }}
+    <div>
+      <a href="{{ .Permalink }}" class="people-cover">
+        {{ .Scratch.Set "targetImage" "bio-pic.jpg" }}
+        {{ .Scratch.Set "fallbackImage" "images/non_tile.png" }}
+        {{ partial "partials/insert-image.html" . }}
+      </a>
+          <br>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+  {{ end }}
+</div>
