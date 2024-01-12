@@ -2,11 +2,12 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Run on pushes targeting the following branches:
   push:
     branches:
 #      - main
       - publish
+      - hotfix
     # Run when matching the following tags:
 #    tags:
 #      - v*.*
