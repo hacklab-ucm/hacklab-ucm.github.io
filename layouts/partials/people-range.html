@@ -1,19 +1,13 @@
 <div class="people-wall">
   {{ range .Pages }}
-{{/*
     <div>
-      {{ $image := "" }}
-      {{ with .Page.Resources.GetMatch "bio-pic.jpg" }}
-        {{ $image = .Permalink }}
-      {{ else }}
-        {{ $image = (resources.Get "images/nontile_red.png").Permalink }}
-      {{ end }}
-      <a href="{{ .Permalink }}">
-        <img src="{{ $image }}" class="people-cover">
+      <a href="{{ .Permalink }}" class="people-cover">
+        {{ .Scratch.Set "targetImage" "bio-pic.jpg" }}
+        {{ .Scratch.Set "fallbackImage" "images/non_tile.png" }}
+        {{ partial "partials/insert-image.html" . }}
       </a>
-      <br>
+          <br>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </div>
-*/}}
   {{ end }}
 </div>

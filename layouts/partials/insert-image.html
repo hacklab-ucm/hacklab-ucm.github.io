@@ -1,0 +1,29 @@
+<!--Make resources from image filenames-->
+{{ $targetImage := .Scratch.Get "targetImage" }}
+{{ $targetImage := .Resources.GetMatch $targetImage }}
+
+{{ $fallbackImage := .Scratch.Get "fallbackImage"  }}
+{{ $fallbackImage := resources.GetMatch $fallbackImage }}
+
+{{ $errorImage := resources.GetMatch "images/404_notfound.*" }}
+
+
+<!--Define image by priority if it exists-->
+{{ $image := "" }}
+
+{{ if $targetImage }}
+  <!--  Image is target.-->
+  {{ $image = $targetImage }}
+{{ else if $fallbackImage }}
+  <!--  Image is fallback.-->
+  {{ $image = $fallbackImage }}
+{{ else }}
+  <!--  Image is 404-error.-->
+  {{ $image = $errorImage }}
+{{ end }}
+
+
+<!--Insert image-->
+{{ with $image }}
+	<img src="{{ $image.Permalink }}"> <br>
+{{ end }}
