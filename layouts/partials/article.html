@@ -1,5 +1,6 @@
 <article id="article">
   {{ partial "article-header" . }}
+  {{ partial "article-cover" . }}
   {{ partial "article-content" . }}
 {{ if eq .Kind "section" }}
   {{ partial "list-range" . }}

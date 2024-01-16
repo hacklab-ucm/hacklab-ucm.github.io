@@ -1,0 +1,12 @@
+<!--Store .Param page parameters as variables-->
+{{ $target := .Param "cover" }}
+{{ $fallback := .Param "fallback-cover" }}
+
+<!--If either parameter is set, store them as Scratch parameters and insert the appropriate image: -->
+{{ if or $target $fallback }}
+  <div id="article-cover">
+    {{ .Scratch.Set "targetImage" $target }}
+    {{ .Scratch.Set "fallbackImage" $fallback }}
+    {{ partial "partials/insert-image.html" . }}
+  </div>
+{{ end }}
