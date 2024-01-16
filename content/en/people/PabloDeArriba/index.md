@@ -3,6 +3,8 @@ title: "Pablo De Arriba"
 date: 2023-11-18T19:10:36+01:00
 draft: false
 bio-pic:
+cover: "bio-pic.jpg"
+fallback-cover: "images/non_tile.png"
 ---
 
 email: @ucm.es  
