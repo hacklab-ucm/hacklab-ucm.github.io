@@ -2,6 +2,8 @@
 title: "Javier Gorostiza"
 date: 2023-10-08T03:46:11+02:00
 draft: false
+cover: "bio-pic.jpg"
+fallback-cover: "images/non_tile.png"
 ---
 [comment]: ![cover_photo](images/nontile.png)
 
