@@ -1,13 +1,18 @@
 <article id="article">
-  {{ partial "article-header" . }}
-  {{ partial "article-cover" . }}
-  {{ partial "article-content" . }}
-{{ if eq .Kind "section" }}
-  {{ partial "list-range" . }}
+    {{ partial "article-header" . }}
+    {{ partial "article-cover" . }}
+    {{ partial "article-content" . }}
+<!--Tags-->
+  {{ if .Param "tags" }}
+    {{ partial "tag-cloud" . }}
+  {{ end }}
+
+  {{ if eq .Kind "section" }}
+    {{ partial "list-range" . }}
 {{/*
-{{ else if eq .Kind "term" }}
-  {{ partial "taxonomies/term.html" . }}
+  {{ else if eq .Kind "term" }}
+    {{ partial "taxonomies/term.html" . }}
 */}}
-{{ end }}
-  {{ partial "article-footer" . }}
+  {{ end }}
+    {{ partial "article-footer" . }}
 </article>
