@@ -5,8 +5,14 @@
 <!--If either parameter is set, store them as Scratch parameters and insert the appropriate image: -->
 {{ if or $target $fallback }}
   <div id="article-cover">
-    {{ .Scratch.Set "targetImage" $target }}
-    {{ .Scratch.Set "fallbackImage" $fallback }}
-    {{ partial "partials/insert-image.html" . }}
+    {{ if not .IsSection }}										<!--Apply a class named after the current section.-->
+      <div class="{{ singularize .Section }}-cover">			<!--Singularize if a single page and not a section.-->
+    {{ else }}													<!--NOTE: Only works for sections or pages under sections.-->
+      <div class="{{ .Section }}-cover">
+    {{ end }}
+      {{ .Scratch.Set "targetImage" $target }}
+      {{ .Scratch.Set "fallbackImage" $fallback }}
+      {{ partial "partials/insert-image.html" . }}
+    </div>
   </div>
 {{ end }}
