@@ -13,10 +13,10 @@ url = '/about/'
 weight = 1
 
 [[main]]
-identifier = 'proyects'
-name = 'Proyects'
+identifier = 'projects'
+name = 'Projects'
 pre = "<i class='icon icon-toc'></i>"
-url = '/proyects/'
+url = '/projects/'
 weight = 2
 
 [[main]]

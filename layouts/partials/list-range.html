@@ -1,8 +1,8 @@
 <div id="list-range">
 {{ if eq .Section "people" }}
          {{ partial "people-range" . }}
-  {{ else if eq .Section "proyects" }}
-         {{ partial "proyect-range" . }}
+  {{ else if eq .Section "projects" }}
+         {{ partial "project-range" . }}
   {{ else if eq .Section "docs" }}
 		 <!--This is the docs section: it has no range listings.-->
   {{ else }}

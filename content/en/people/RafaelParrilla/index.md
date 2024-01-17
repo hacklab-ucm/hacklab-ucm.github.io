@@ -17,4 +17,4 @@ Master of Cats.
 Original Instigator.  
 
 Research Lineas:
-Social collaboration proyects, Machine design, 
+Social collaboration projects, Machine design, 
