@@ -1,11 +1,11 @@
 <div id="list-range">
 {{ if eq .Section "people" }}
          {{ partial "people-range" . }}
-{{/*
   {{ else if eq .Section "proyects" }}
          {{ partial "proyect-range" . }}
-*/}}
+  {{ else if eq .Section "docs" }}
+		 <!--This is the docs section: it has no range listings.-->
   {{ else }}
-		 This is not defined.
+		 THIS IS A COMMENT: This section is NOT backed up by a list-range.
 {{ end }}
 </div>
