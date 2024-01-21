@@ -13,3 +13,5 @@ resources:
 - name: image_:counter
   src: '**.jpg'
 ---
+
+email: sermon @ucm.es
