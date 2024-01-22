@@ -1,12 +1,7 @@
 <article id="article">
-    {{ partial "article-header" . }}
+    {{ .Render "article-header" }}
     {{ partial "article-cover" . }}
     {{ partial "article-content" . }}
-<!--Tags-->
-  {{ if .Param "tags" }}
-    {{ partial "tag-cloud" . }}
-  {{ end }}
-
   {{ if eq .Kind "section" }}
     {{ partial "list-range" . }}
 {{/*

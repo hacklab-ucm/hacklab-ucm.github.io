@@ -1,0 +1,32 @@
+<header id="article-header">
+	{{ partial "title" . }}
+  {{ if not .IsSection }}
+	{{ partial "date" . }}
+	{{ partial "taxonomies/authors" . }}
+	{{ partial "taxonomies/post-tags" . }}
+	{{ partial "taxonomies/materials" . }}
+  {{ end }}
+</header>
+
+{{/*
+{{ if .IsSection }}
+	{{ if eq .Section "projects" }}
+		<h5>{{ partial "taxonomies/all-tags" . }}<h5>
+		<h5>{{ partial "taxonomies/all-authors" . }}</h5>
+		<h5>{{ partial "taxonomies/all-materials" . }}</h5>
+		<h5>Date/Year: 2023, 2022 </h5>
+	{{ end }}
+
+	{{ if eq .Section "events" }}
+		{{ partial "years" . }}
+	{{ end }}
+{{ end }}
+*/}}
+
+{{/*
+		{{ if or (eq .Type "projects") (eq .Type "research") }}
+			<h5>{{ partial "taxonomies/authors" . }}</h5>
+			<h5>{{ partial "taxonomies/post-tags" . }}</h5>
+			<h5>{{ partial "taxonomies/materials" . }}</h5>
+		{{ end }}
+*/}}
