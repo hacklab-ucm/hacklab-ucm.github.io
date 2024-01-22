@@ -11,3 +11,9 @@ enableGitInfo = true
 markup.highlight.noClasses = false
 
 theme = 'docura'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  author = 'authors'
+  material = 'materials'
