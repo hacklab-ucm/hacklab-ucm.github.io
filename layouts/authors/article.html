@@ -1,0 +1,10 @@
+<article id="article">
+    {{ .Render "article-header" }}
+    {{ partial "taxonomies/all-authors" . }}
+
+  {{ if eq .Kind "term" }}
+    {{ partial "project-range" . }}
+  {{ end }}
+
+    {{ partial "article-footer" . }}
+</article>
