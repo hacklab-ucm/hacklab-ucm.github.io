@@ -1,0 +1,10 @@
+{{ $taxonomy := "authors" }}
+{{ with .GetTerms $taxonomy }}
+<div id="authors">
+    {{ (site.GetPage $taxonomy).LinkTitle }}:
+    {{ range $k, $_ := . -}}
+      {{ if $k }}, {{ end }}
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+</div>
+{{ end }}
