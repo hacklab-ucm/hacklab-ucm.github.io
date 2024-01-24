@@ -1,0 +1,10 @@
+{{ $taxonomy := "materials" }}
+{{ with .GetTerms $taxonomy }}
+<div id="materials">
+    {{ (site.GetPage $taxonomy).LinkTitle }}:
+    {{ range $k, $_ := . -}}
+      {{ if $k }}, {{ end }}
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+</div>
+{{ end }}

@@ -9,7 +9,7 @@ toc: true
 
 ## History
 
-HACKLAB Bellas Artes started its journey as a space for inter-faculty/student collaboration, research, and proyect management in the realm of technology and digital fabrication.
+HACKLAB Bellas Artes started its journey as a space for inter-faculty/student collaboration, research, and project management in the realm of technology and digital fabrication.
 
 Today we formalize this activity in the form of a PIMCD, Proyecto de Innovación.
 
@@ -27,7 +27,7 @@ At HackLAB we strive to encourge an atmosphere of open and proactive collaborati
 - The advancement of certain areas of research under our purvey.
 - To provide a space (both physical, virtual, and conceptual) that allows for 
 -  
-- To collaborate in the development of proyects that would otherwise not be feasable or achievable from the effort of one idividual or area of expertise.
+- To collaborate in the development of projects that would otherwise not be feasable or achievable from the effort of one idividual or area of expertise.
 - To facilitate creative and working synergies amongst our members and the public, where the latter increasingly become the former.
 
 
