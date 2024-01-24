@@ -2,12 +2,10 @@
     {{ .Render "article-header" }}
     {{ partial "article-cover" . }}
     {{ partial "article-content" . }}
+
   {{ if eq .Kind "section" }}
     {{ partial "list-range" . }}
-{{/*
-  {{ else if eq .Kind "term" }}
-    {{ partial "taxonomies/term.html" . }}
-*/}}
   {{ end }}
+
     {{ partial "article-footer" . }}
 </article>
