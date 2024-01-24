@@ -1,0 +1,13 @@
+<header id="article-header">
+	{{ partial "title" . }}
+  {{ if .IsSection }}
+	{{ partial "taxonomies/all-authors" . }}
+	{{ partial "taxonomies/all-tags" . }}
+	{{ partial "taxonomies/all-materials" . }}
+  {{ else }}
+	{{ partial "date" . }}
+	{{ partial "taxonomies/authors" . }}
+	{{ partial "taxonomies/post-tags" . }}
+	{{ partial "taxonomies/materials" . }}
+  {{ end }}
+</header>

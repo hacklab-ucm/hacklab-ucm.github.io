@@ -2,7 +2,7 @@
 <div id="site-main-content-wrapper">
     {{ partial "sidebar" . }}
   <main>
-	{{ partial "article" . }}
+	{{ .Render "article" }}
     {{ partial "toc" . }}
   </main>
 </div>

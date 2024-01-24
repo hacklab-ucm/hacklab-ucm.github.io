@@ -1,0 +1,21 @@
+{{ $taxonomy := "tags" }}
+{{ with .GetTerms $taxonomy }}
+<div id="tags">
+    {{ (site.GetPage $taxonomy).LinkTitle }}:
+    {{ range $k, $_ := . -}}
+      {{ if $k }}, {{ end }}
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+</div>
+{{ end }}
+
+
+{{ with .Param "tags" }}
+<div id="tags">
+  {{ range $index, $tag := (. | sort) }}
+  {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
+    <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
