@@ -9,7 +9,7 @@ toc: true
 
 ## History
 
-HACKLAB Bellas Artes started its journey as a space for inter-faculty/student collaboration, research, and project management in the realm of technology and digital fabrication.
+HACKLAB UCM started its journey as a space for inter-faculty/student collaboration, research, and project management in the realm of technology and digital fabrication.
 
 Today we formalize this activity in the form of a PIMCD, Proyecto de Innovación.
 
@@ -33,5 +33,5 @@ At HackLAB we strive to encourge an atmosphere of open and proactive collaborati
 
 ## People (members)
 
-HackLAB BBAA includes a varied and diverse ensamble of people. We encourage you to peruse our **[people directory]({{< ref "/people" >}})** to find out more about the activity of our members.
+HackLAB UCM includes a varied and diverse ensamble of people. We encourage you to peruse our **[people directory]({{< ref "/people" >}})** to find out more about the activity of our members.
 Furthermore, if you would like to collaborate with us please feel free to reach out at one of our **events** or contact us via **email/IM**. 
