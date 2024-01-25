@@ -8,7 +8,7 @@ on:
 #      - main
       - publish
       - hotfix
-	  - '*_edits'
+      - '*_edits'
     # Run when matching the following tags:
 #    tags:
 #      - 'v*.*'
