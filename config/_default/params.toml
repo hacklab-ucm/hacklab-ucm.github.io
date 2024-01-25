@@ -1,11 +1,11 @@
 description = 'Un espacio para la cultura digital colaborativa en el corazón de la Complutense.'
 
 [author]
-name = 'hacklab-bbaa'
-URL = 'https://hacklab-bbaa.com/'
+name = 'hacklab-ucm'
+URL = 'https://hacklab-ucm.github.io/'
 
-currentYear = 2023
-# projectStartYear = 2020
+currentYear = 2024
+projectStartYear = 2023
 
 facebookURL = 'https://facebook.com/'
 twitterURL = 'https://www.twitter.com/'
