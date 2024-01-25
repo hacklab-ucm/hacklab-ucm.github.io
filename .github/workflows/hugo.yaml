@@ -8,10 +8,10 @@ on:
 #      - main
       - publish
       - hotfix
-	  - *_edits
+	  - '*_edits'
     # Run when matching the following tags:
 #    tags:
-#      - v*.*
+#      - 'v*.*'
 
 
   # Allows you to run this workflow manually from the Actions tab
