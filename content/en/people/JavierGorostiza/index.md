@@ -17,4 +17,5 @@ fallback-cover: "images/non_tile.png"
 bio:
 
 Research Lineas:
+Interests:
 
