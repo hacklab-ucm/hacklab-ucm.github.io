@@ -1,5 +1,6 @@
 ---
 title: "Colido X3045"
+slug: "colido"
 date: 2023-10-04T22:30:29+02:00
 draft: false
 ---
