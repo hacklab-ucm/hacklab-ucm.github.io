@@ -7,3 +7,16 @@ weight = 1
 contentDir = 'content/es'
 languageName = 'Spanish'
 weight = 2
+  [es.permalinks]
+    [es.permalinks.section]
+      docs = '/docs/'
+      events = '/eventos/'
+      people = '/personas/'
+      projects = '/proyectos/'
+      research = '/investigacion/'
+    [es.permalinks.page]
+      docs = '/docs/:slug/'
+      events = '/eventos/:slug'
+      people = '/personas/:slug'
+      projects = '/proyectos/:slug'
+      research = '/investigacion/:slug'

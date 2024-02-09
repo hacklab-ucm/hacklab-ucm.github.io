@@ -10,11 +10,7 @@ fallback-cover: "images/non_tile.png"
 
 # Hello world.
 
-<img class="special-img-class" src="images/nontile.png" />
-
-<p> thit ss a nthtml paragrah </p>
-
 bio:
 
-Research Lineas:
-
+Research Lineas:  
+Interests in: robotics, FLOSS software, drawing, digital fabrication,  
