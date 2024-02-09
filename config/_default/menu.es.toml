@@ -1,0 +1,35 @@
+[[main]]
+identifier = 'about'
+name = 'Acerca De'
+pre = "<i class='icon icon-home'></i>"
+url = '/es/acerca-de/'
+weight = 1
+
+[[main]]
+identifier = 'projects'
+name = 'Proyectos'
+pre = "<i class='icon icon-toc'></i>"
+url = '/es/proyectos/'
+weight = 2
+
+[[main]]
+identifier = 'docs'
+name = 'Documentación'
+pre = "<i class='icon icon-book'></i>"
+url = '/es/docs/'
+weight = 3
+
+[[main]]
+identifier = 'research'
+name = 'Investigación'
+pre = "<i class='icon icon-calendar'></i>"
+url = '/es/investigacion/'
+weight = 4
+
+
+[[main]]
+identifier = 'events'
+name = 'Eventos'
+pre = "<i class='icon icon-calendar'></i>"
+url = '/es/eventos/'
+weight = 5
