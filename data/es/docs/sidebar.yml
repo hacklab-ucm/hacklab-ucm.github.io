@@ -1,0 +1,41 @@
+- title: Documentación
+  pages:
+    - title: General
+
+- title: Impresión 3D
+  pages:
+    - title: Fundamentos
+    - title: Slicers
+    - title: Cura
+    - title: COLIDO
+    - title: Ender-3
+
+
+- title: Corte Láser
+  pages:
+    - title: Fundamentos
+    - title: Catalogo de Materiales
+
+- title: Digitalización
+  pages:
+    - title: Fotogrametría
+    - title: Reality Capture
+    - title: Escaneado Láser
+    - title: Luz Estructurada
+
+- title: Creación 3D y CAD
+  pages:
+    - title: Blender
+
+- title: Mecanizado CNC
+  pages:
+    - title: Roland MDX-650 Pro
+    - title: Roland MDX-15
+    - title: Fresas
+    - title: Feeds/Speeds
+    - title: CAM software (path-generation)
+
+- title: Instalaciones
+  pages:
+    - title: 3D-Lab
+    - title: Taller de diseño
