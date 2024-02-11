@@ -4,6 +4,8 @@ baseURL = 'https://jarshvor.github.io/hacklab-ucm'
 defaultContentLanguage = 'en'
 languageCode = 'en-us'
 
+removePathAccents = true
+
 googleAnalytics = ''
 
 enableGitInfo = true

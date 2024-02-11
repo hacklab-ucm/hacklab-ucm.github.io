@@ -1,6 +1,5 @@
 ---
 title: "Fotogrametría"
-slug: "fotogrametria"
 date: 2023-09-26T03:49:14+02:00
 draft: false
 ---
