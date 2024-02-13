@@ -22,15 +22,4 @@ Generar material didáctico que pueda servir para que los docentes lo incorporen
 ## Equipo
 El equipo del grupo de innovación docente **hacklab UCM** del curso 2023/24 está formado por estudiantes, miembros del PTGAS y del PDI de la Facultad de Bellas Artes de la UCM:
 
-Bruno Ruiz<p>
-Dámaso Peinado<p>
-Daniel Garcia Lopez<p>
-Javier Gorostiza<p>
-Jose Enrique Mateo Leon<p>
-Maria Fernandez Vazquez<p>
-Monica Florensa Tomasi<p>
-Pilar Del Puerto<p>
-Puerto Collado Rueda<p>
-Rafael Parrilla Vallespin<p>
-Ricardo Espinosa Ruiz<p>
-Sergio Montoya Rasero<p>
+[Bruno Ruiz](https://www.ucm.es/directorio/?id=35185); [Dámaso Peinado](https://www.ucm.es/directorio?id=35631); [Daniel Garcia Lopez](https://www.ucm.es/directorio?id=34676); Javier Gorostiza; [Jose Enrique Mateo Leon](https://www.ucm.es/directorio?id=24471); [Maria Fernandez Vazquez](https://www.ucm.es/directorio?id=29114); [Monica Florensa Tomasi](https://www.ucm.es/directorio?id=29033); [Pilar del Puerto Hernández González](https://www.ucm.es/directorio?id=34870); [Puerto Collado Rueda](https://www.ucm.es/directorio?id=28021); Rafael Parrilla Vallespin; [Ricardo Espinosa Ruiz](https://www.ucm.es/directorio?id=30024); [Sergio Montoya Rasero](https://www.ucm.es/directorio?id=35259)
